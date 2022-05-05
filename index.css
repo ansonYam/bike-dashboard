@@ -3,3 +3,19 @@ header {
     color: white;
     padding-top: 20px;
 }
+
+.nav-custom {
+    background-color: rgb(7,77,102);
+}
+
+.nav-custom .nav-link {
+    color: white;
+}
+
+/* change the color of active or hovered links */
+.nav-custom .nav-item.active .nav-link,
+.nav-custom .nav-item:focus .nav-link,
+.nav-custom .nav-item:hover .nav-link {
+    background-color: rgb(86,195,190);
+    color: rgb(80,80,80);
+}
